@@ -1,0 +1,302 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.navbar
+{
+    display: flex;
+    margin-left: 300px;
+}
+.logo img
+{
+    width: 300px;
+    height: 300px;
+    /*margin-top: -110px;*/
+    margin-left: -50px;
+}
+.navbar__link
+{
+    display: flex;
+    margin-left: 350px;
+}
+.navbar__link a 
+{   
+    text-decoration: none;
+    color: #B8B8B8;
+}
+.navbar__link a:hover
+{
+    color: #12B8A2;
+}
+.section1__container
+{
+    margin-top: -80px;
+}
+.section1__container img 
+{
+    margin-left: 55%;
+}
+.section1__container h3
+{
+    color: #12B8A2;
+    margin-left: 25%;
+    font-size: 40px;
+}
+.section1__p
+{
+    display: flex;
+    color: #B8B8B8;
+    width: 900px;
+    margin-left: 20%;
+    line-height: 27px;
+}
+.section2__container
+{
+    margin-top: 60px;
+}
+.section2__box
+{
+    display: flex;
+    margin-left: 20%; 
+}
+.section2__box1
+{
+    background-color: #12B8A2;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.section2__box2
+{
+    background-color: #3D83DF;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.section2__box3
+{
+    background-color: #1B2734;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.section4__container
+{
+    background-color: #E0F9F7;
+    height: 500px;
+    margin-top: 20px;
+}
+.section4__container h4
+{
+    padding: 120px;
+    font-size: 30px;
+    color: #12B8A2;
+}
+.section4__container p
+{
+    color: #B8B8B8;
+    margin-top: -120px;
+    margin-left: 8%;
+}
+.section4__box
+{
+    margin-left: 45%;
+    margin-top: -240px;
+    margin-right: 20px;
+}
+.section4__box1
+{
+    background-color: white;
+    width: 210px;
+    height: 210px;
+ 
+}
+.section4__box2
+{
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    margin-top: 20px;
+
+}
+.section4__box5
+{
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.section4__box6
+{
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section4__box4
+{
+    margin-left: 60%;
+    margin-top: -440px; 
+}
+/*debut*/
+.section2__box img{
+    margin-left: 10%;
+
+}
+.section2__box1 h1{
+    color: #fff;
+    margin-left: 10%;
+    
+}
+.section2__box1 h2{
+    color: white;
+    margin-left: 10%;
+
+}
+.section2__box_country{
+    margin-left: 10%;
+    
+}
+.section2__box2 h2{
+    color: #fff;
+    margin-left: 10%;
+    
+}
+.section2__box2 h1{
+    color: white;
+    margin-left: 10%;
+
+}
+.section2__box2_country{
+    margin-left: 10%;
+    
+}
+.section2__box3 h2{
+    color: #fff;
+    margin-left: 10%;
+    
+}
+.section2__box3 h1{
+    color: white;
+    margin-left: 10%;
+
+}
+.section2_box3_specialists{
+    margin-left: 10%;
+}
+/*Table*/
+.section3_container h1{
+    
+    color:#8FD1E2;
+
+    margin-left: 20%;
+    margin-top: 60px
+}
+.section3_logos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 60px;
+    list-style: none;
+    color: #1B2734;
+   
+
+}
+.section3_logos li a
+{
+    
+   
+    /*c par rapport a l espacement d une list ici c mieux d utliser les pixels que les pourcentages*/
+    margin-left: 60px;
+    color: #FFFFFF;
+    
+    
+
+}
+.section4__box1 img{
+    margin-left: 40%;
+    margin-top: 10px;
+} 
+.section4__box1 h3{
+    margin-top: 10px;
+    margin-left: 5%;
+    color:  #12B8A2;
+    font-size: 20px;
+}
+.section4__box1 p{
+    margin-top: 10px;
+}
+
+.section4__box2 img{
+    margin-left: 40%;
+    margin-top: 10px;
+
+}
+.section4__box2 h3{
+    font-size: 30px;
+
+}
+.section4__box2 h3{
+    color: #12B8A2;
+    font-size: 110%;
+}
+.section4__box2 p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.section4__box5 img{
+    margin-left: 40%;
+    margin-top: 10px;
+} 
+.section4__box5 h3{
+    
+    margin-left: 25px;
+    color:  #12B8A2;
+    font-size: 20px;
+
+}
+.section4__box5 p{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.section4__box6 img{
+    margin-left: 40%;
+}
+.section4__box6 h3{
+    margin-left: 50px;
+    color:  #12B8A2;
+    font-size: 20px;
+    
+}
+.section4__box6 p{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.sectiion5__container h4{
+    color:#AFCABA;
+    font-size: 30px;
+    text-align: center
+    
+}
+.sectiion5__container p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.section7__box h1{
+    text-align: center;
+    font-size: 30px;
+}
+.section7__box a{
+    margin-left: 40%;
+}
+.section8{
+    text-align: center;
+}
